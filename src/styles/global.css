@@ -1,0 +1,114 @@
+:root{
+  --primary-color: #E41F25;
+  --secundary-color:#0D131A;
+  --body:#FCFCFC;
+
+  --white:#fff;
+
+  --loading:#dddddd;
+
+  --background-pokemon:#F4F4F4;
+  
+
+  --input:#FFFFFF;
+  --placeholder:#C9C9C9;
+  
+  --button-background:#4b4b4b;
+  --button-background-hover:rgb(44, 44, 44);
+
+  --card:#FFFFFF;
+
+  --tag-color:#0D131A;
+  --tag-container:#eeeeee;
+  
+  --title:#2B2B2A;
+  --title-light:#fff;
+  
+  --text-highlight:#474747;
+  --text:#a0a0a0;
+  --text-light:#fff;
+  
+  --type-text-color:#ffffff;
+
+  --type-normal: #4d4d4d;
+  --type-fighting: #f0c94b;
+  --type-flying: #7fcee6;
+  --type-poison: #d268e7;
+  --type-ground: #000;
+  --type-rock: #3f3f3f;
+  --type-bug: #796343;
+  --type-ghost: #b6b6b6;
+  --type-steel: #919191;
+  --type-electric: #ebd52e;
+  --type-psychic: #e252b2;
+  --type-ice: #6eb8e4;
+  --type-dragon: #e42626;
+  --type-dark: #141414;
+  --type-fairy: #000;
+  --type-unknown: #eeeeee;
+  --type-shadow: #363636;
+  --type-grass: #58c077;
+  --type-water: #3396CD;
+  --type-fire: #f76f15;
+
+  --pokemon-black:#1b1b1b;
+  --pokemon-blue:#3396CD;
+  --pokemon-brown:#f55929;
+  --pokemon-gray:#505050;
+  --pokemon-green:#29C771;
+  --pokemon-pink:#d65997;
+  --pokemon-purple:#a234ce;
+  --pokemon-red:#df1c3d;
+  --pokemon-white:#d4d4d4;
+  --pokemon-yellow:#f0da35;
+
+  --legendary:rgb(240, 182, 22);
+  --mythical:rgb(51, 11, 54);
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--body);
+  color:var(--text);
+
+  overflow-y: scroll;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+body,input,textarea,button{
+  font: 400 1rem "Poppins", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background: var(--button-background);
+  color:var(--text-light);
+  padding: 1rem 2rem;
+}
+
+a{
+  color:inherit;
+  text-decoration: none;
+}
+h1,h2,h3,h4{
+  color:var(--title);
+  margin:0;
+  font-size: 1.35rem;
+}
+
+@media(max-width:768px){
+  :root{
+    font-size:93%
+  }
+}

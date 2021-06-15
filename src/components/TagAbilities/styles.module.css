@@ -1,0 +1,10 @@
+.type{
+    padding: 0.25rem 1rem;
+    color:var(--type-text-color);
+    font-weight: 400;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    background: var(--tag-color);
+    text-align: center;
+}
